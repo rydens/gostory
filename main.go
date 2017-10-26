@@ -1,11 +1,10 @@
 package main
 
 import (
-	"fmt"
+	story "github.com/skilstak/storyeng-go"
+	_ "github.com/rydens/gostory/parts"
 )
 
 func main() {
-	//does it work?
-
-	//change
+	story.Start()
 }
